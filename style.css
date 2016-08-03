@@ -1,0 +1,9 @@
+header{
+	background-color: GoldenRod; 
+	margin-top: 0;
+}
+
+.col-4 {
+	border: 1px solid #DDDDDD;
+	margin: 10px;
+}
