@@ -1,3 +1,7 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
 header {
 	background-color: #eebb44; 
 	margin-top: 0;
@@ -8,17 +12,13 @@ header {
 .nav h1 {
 	padding-left: 40px;
 	padding-top: 20px;
+	margin-top: 0;
 }
 
 .nav p {
 	padding-left: 40px;
 	padding-bottom: 20px;
-}
-
-
-
-body {
-	font-family: "Roboto", sans-serif;
+	margin-bottom: 0;
 }
 
 .card {
@@ -28,6 +28,7 @@ body {
 
 .card-image {
 	width: 100%;
+	height: auto;
 }
 
 .card h4 {
