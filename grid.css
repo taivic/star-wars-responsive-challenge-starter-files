@@ -32,33 +32,31 @@
   clear: both;
 }
 
-
 /* Mobile defaults */
 .col-4 {
-		width: 100%;
-		float: left;
+	width: 100%;
+	float: left;
 /* Gutters:
-   * Each column is padded by half-a-gutter on each side,
-   *
-   * Half a gutter is 10px, 10/960 (context) = 1.041666%
-   *
-   */
-  	padding-left: 1.04166666%;
-  	padding-right: 1.04166666%;
+ * Each column is padded by half-a-gutter on each side,
+ *
+ * Half a gutter is 10px, 10/960 (context) = 1.041666%
+ *
+ */
+	padding-left: 1.04166666%;
+	padding-right: 1.04166666%;
 }
 
 /* Non-mobile, grid */
 @media only screen and (min-width: 640px) {
-  /* 4 columns, 4/12 in % */
- 
+  /* 4 columns, 4/12 in % */ 
  .nav {
- 	width: 100%;
+ 	  width: 100%;
  }
 
  .col-4 {
     width: 33.3333333%;
   }
-
+}
 
 
 
